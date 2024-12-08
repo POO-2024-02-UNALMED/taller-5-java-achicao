@@ -21,6 +21,7 @@ public class Reptil extends Animal{
 	public Reptil(String colorEscamas,int largoCola) {
 		this.colorEscamas = colorEscamas;
 		this.largoCola = largoCola;
+		listado.add(this);
 	}
 	
 	public static int cantidadReptiles() {

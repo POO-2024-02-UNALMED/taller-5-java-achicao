@@ -18,6 +18,7 @@ public class Ave extends Animal{
 	
 	public Ave(String colorPlumas) {
 		this.colorPlumas = colorPlumas;
+		listado.add(this);
 	}
 	
 	public static int cantidadAves() {
