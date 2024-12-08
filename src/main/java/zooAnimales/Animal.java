@@ -36,15 +36,15 @@ public class Animal {
 		int peces = Pez.cantidadPeces();
 		int anfibios = Anfibio.cantidadAnfibios();
 				
-		return "Mamíferos: "+mamiferos+"\nAves: "+aves+"\nReptiles: "+reptiles+"\nPeces: "+peces+"\nAnfibios: "+anfibios;
+		return "Mamiferos: "+mamiferos+"\nAves: "+aves+"\nReptiles: "+reptiles+"\nPeces: "+peces+"\nAnfibios: "+anfibios;
 	}
 	
 	public String toString() {
 		if (zona != null) {
-			return "Mi nombre es"+nombre+",tengo una edad de "+edad+",habito en "+habitat+" y mi género es "+genero+", la zona en la que me ubico es "+zona.getNombre()+" en el "+zona.getZoo().getNombre();
+			return "Mi nombre es "+nombre+",tengo una edad de "+edad+",habito en "+habitat+" y mi género es "+genero+", la zona en la que me ubico es "+zona.getNombre()+" en el "+zona.getZoo().getNombre();
 		}
 		else {
-			return "Mi nombre es"+nombre+",tengo una edad de "+edad+",habito en "+habitat+" y mi género es "+genero;
+			return "Mi nombre es "+nombre+",tengo una edad de "+edad+",habito en "+habitat+" y mi género es "+genero;
 		}
 	}
 	
